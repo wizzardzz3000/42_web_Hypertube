@@ -1,0 +1,52 @@
+.all {
+  margin-top: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#genreSelect {
+  height: 37px;
+  width: 92px;
+  background-color: rgba(102, 65, 65, 0);
+  border: 1px solid white;
+  border-radius: 1px;
+  margin-top: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+label {
+  font-size: 15.5px;
+  color: white;
+}
+
+.RatingRange, .YearRange {
+  padding-right: 30px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .all {
+    display: inline-block;
+  }
+  #genreSelect {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  .RatingRange, .YearRange {
+    padding-right: 0px;
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=Filter.css.map */

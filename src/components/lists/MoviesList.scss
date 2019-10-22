@@ -1,0 +1,46 @@
+/* General */
+
+.movies-posters-list {
+  width: 100%;
+  max-height: 650px;
+  overflow-y: auto;
+  padding-right: 17px;
+  box-sizing: content-box;
+}
+
+.movie-poster-only {
+  display: inline-block;
+  margin: 20px 0px;
+}
+
+.movie-poster-only img {
+  width: 180px;
+  height: 266.656px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 440px) {
+  .movie-poster-only img {
+    width: 150px;
+    height: 222.219px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .movie-poster-only img {
+    width: 120px;
+    height: 177.766px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .movie-poster-only {
+    width: 100% !important;
+  }
+
+  .movie-poster-only img {
+    width: 100%;
+    height: auto !important;
+  }
+}

@@ -1,0 +1,136 @@
+/* General */
+html {
+  height: 100%;
+  font-family: "Helvetica Neue";
+}
+
+.modal {
+  z-index: 10000;
+}
+
+.m5 {
+  margin: 5px;
+}
+
+.App {
+  width: 100%;
+}
+
+.row {
+  margin: auto;
+  margin-top: 30px;
+  max-width: 1200px;
+}
+
+.col-padding-zero {
+  padding: 0px !important;
+}
+
+/* Container background */
+.container-background {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  background: url("./assets/landing.jpg");
+  background-size: cover;
+}
+
+.container-black {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: black;
+}
+
+/* Cards UI */
+.card-panel {
+  border-radius: 5px;
+  border: solid 2px rgba(255, 0, 0, 0.2);
+  background-color: rgba(64, 64, 64, 0.5);
+  margin: auto;
+}
+
+/* Icons */
+i.material-icons .icons-red {
+  color: red;
+}
+
+i.material-icons .icons-white {
+  color: white;
+}
+
+/* Titles */
+.title-page {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+/* Forms */
+.form-input-fields {
+  color: white;
+  border-bottom: solid 1px white !important;
+  margin: 10px 0px !important;
+}
+
+input[type="text"]:not(.browser-default):focus:not([readonly]) + label {
+  color: white !important;
+}
+
+input[type="email"]:not(.browser-default):focus:not([readonly]) + label {
+  color: white !important;
+}
+
+input[type="password"]:not(.browser-default):focus:not([readonly]) + label {
+  color: white !important;
+}
+
+textarea:not(.browser-default):focus:not([readonly]) + label {
+  color: white !important;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 50px;
+}
+
+label.label-form {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+input:focus ~ label,
+input:not([value=""]) ~ label {
+  font-size: 14px;
+  color: white;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  color: white !important;
+  background-color: red !important;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+  .container-background {
+    background: none;
+    background-color: black !important;
+  }
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,100 @@
+/* General */
+
+.landing-page-title {
+  position: relative;
+  top: 150px;
+  margin: auto;
+  width: 80%;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+
+  span {
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 9vw;
+  }
+}
+
+.landing-page-content {
+  position: relative;
+  top: 180px;
+  margin: auto;
+  text-align: center;
+}
+
+.landing-page-content-text {
+  color: red;
+  font-size: 30px;
+}
+
+.landing-page-content-title-second {
+  margin-top: 20px;
+  color: white;
+  font-size: 30px;
+}
+
+.material-icons.landing-page-content-title-icon {
+  position: relative;
+  top: 15px;
+  font-size: 50px;
+  color: white;
+}
+
+.container-background-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url('../../assets/landing.jpg');
+  background-size: cover;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 1000px) {
+  .landing-page-title {
+    top: 120px;
+    font-size: 40px;
+  }
+
+  .landing-page-content {
+    top: 150px;
+  }
+
+  .landing-page-content-text {
+    font-size: 20px;
+  }
+
+  .landing-page-content-title-second {
+    font-size: 20px;
+  }
+
+  .landing-page-content-title-icon {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .landing-page-title {
+    top: 100px;
+    font-size: 30px;
+  }
+
+  .landing-page-content {
+    top: 130px;
+  }
+
+  .landing-page-content-text {
+    font-size: 14px;
+  }
+
+  .landing-page-content-title-second {
+    font-size: 14px;
+  }
+
+  .landing-page-content-title-icon {
+    font-size: 30px;
+  }
+}

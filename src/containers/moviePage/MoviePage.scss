@@ -1,0 +1,192 @@
+body {
+    background: url("../../assets/landing.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.MoviePage {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.layer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.295);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+  }
+
+.movieTitle {
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+.player {
+    margin-top: 10px;
+}
+
+.player, .videoSource {
+    max-width: 96vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottomStuff {
+    display: inline-block;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+// Comment section
+// --------------------------------------------------------------------
+.commentSection {
+    padding: 15px 15px;
+    width: 90vw;
+    max-width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.466);
+    border: 1px solid rgba(255, 255, 255, 0.274);
+    border-radius: 10px;
+    // float: left;
+}
+.comments {
+    height: 85%;
+    overflow: scroll;
+}
+.singleComment {
+    width: 100%;
+    height: 80px;
+    // background-color: rgba(255, 255, 255, 0.048);
+}
+.top {
+    width: 100%;
+    height: 20px;
+}
+.bottom {
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.top .moviePrimary {
+    margin-bottom: 8px;
+}
+
+#commenter {
+    float: left;
+}
+#timestamp {
+    float: right;
+}
+#deleteButton {
+    float: right;
+    margin-left: 10px;
+    margin-top: -6px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.waves-effect.waves-white {
+     background-color: rgba(255, 255, 255, 0.089);
+    //  border-radius: 50%;
+     color: white;
+   }
+#content {
+    float: left;
+}
+.commentSeparator {
+    border: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.inputComment {
+    height: 10%;
+    color: white;
+    width: 100%;
+    margin-left: 10px;
+    float: left;
+}
+.comment-input-field {
+    color: white;
+    width: 60vw !important;
+    max-width: 924px;
+    background-color: rgba(255, 255, 255, 0.062);
+
+}
+.input-field::placeholder {
+    color: rgba(255, 255, 255, 0.486);
+}
+.inputComment input:focus {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.781) !important;
+}
+
+#submitCommentButton {
+    margin-left: 20px;
+  }
+
+// Info section
+// --------------------------------------------------------------------
+.infoSection {
+    padding: 15px 15px;
+    max-width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 90vw;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.466);
+    border: 1px solid rgba(255, 255, 255, 0.274);
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.infoPoster {
+    width: 30%;
+    float: right;
+}
+
+.infos {
+    width: 65%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.infos .moviePrimary {
+    margin-bottom: 18px;
+}
+#sourceSelect {
+    height: 37px;
+    width: 92px;
+    background-color: rgba(0, 0, 0, 0.603);
+    border: 1px solid white;
+    border-radius: 1px;
+    margin-top: 3px;
+    color: white;
+    cursor: pointer;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.movieSecondary {
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 700px) {
+    #synopsis {
+        font-size: 12px;
+    }
+  }

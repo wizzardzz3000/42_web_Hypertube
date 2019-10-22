@@ -1,0 +1,107 @@
+.nav-wrapper {
+  background-color: black;
+}
+
+.brand-logo {
+  margin: 10px 10px;
+}
+
+.nav-btns-right {
+  position: absolute;
+  right: 10px;
+}
+
+.nav-link {
+  display: inline-block;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.nav-link-icon {
+  margin: 0px 10px 0px 35px;
+  font-size: 32px !important;
+}
+
+.nav-link-img {
+  width: 35px;
+  height: 35px;
+  border: solid 2px #fff;
+  border-radius: 5px;
+  margin: 0px 10px 0px 35px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-link-img:hover {
+  border-color: red;
+}
+
+/* Mobile menu */
+
+.nav-btns-right-mobile {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+}
+
+.nav-mobile-menu {
+  display: none;
+}
+
+.btn.nav-mobile-menu-btn {
+  height: 100%;
+  color: red;
+  background-color: transparent;
+  margin-top: -10px;
+}
+
+.btn.nav-mobile-menu-btn:hover {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.btn.nav-mobile-menu-btn:focus {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.MuiDrawer-paperAnchorLeft {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border-right: solid 5px rgba(255, 0, 0, 0.5) !important;
+}
+
+.nav-mobile-menu-icons {
+  position: relative;
+  top: 5px;
+  margin-right: 10px;
+}
+
+.nav-mobile-menu-links {
+  color: red;
+}
+
+.btn.btn-regular {
+  background-color: red;
+  margin: 0px 10px;
+}
+
+.btn.btn-regular:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 992px) {
+  .nav-btns-right {
+    display: none;
+  }
+
+  .nav-mobile-menu {
+    display: inline;
+  }
+
+  .brand-logo {
+    display: inline;
+  }
+}

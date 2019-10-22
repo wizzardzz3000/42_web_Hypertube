@@ -1,0 +1,78 @@
+/* General */
+.btn {
+  margin-left: 0px;
+}
+
+/* Regular button */
+.btn.btn-regular {
+  background-color: red;
+  margin: 0px 10px;
+}
+
+.btn.btn-regular:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+/* Secondary button */
+.btn.btn-secondary {
+  background-color: rgba(102, 65, 65, 0);
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.219);
+}
+
+.btn-secondary:focus {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.btn.btn-secondary:disabled {
+  background-color: rgba(102, 65, 65, 0) !important;
+  color: rgba(255, 255, 255, 0.486) !important;
+  border: 1px solid white;
+}
+
+/* Function button */
+.btn-function {
+  padding: 5px 30px;
+  height: auto;
+}
+
+.btn-function-text {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+/* Big button */
+.btn.btn-big {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  width: 350px;
+  height: 120px;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.btn.btn-big-icon {
+  margin-left: 20px;
+  font-size: 50px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+  .btn.btn-big {
+    width: 250px;
+    height: 85px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  .btn.btn-big-icon {
+    margin-left: 15px;
+    font-size: 35px;
+  }
+}
+/*# sourceMappingURL=Buttons.css.map */

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* General */
+/* Password */
+.password-message {
+  background-color: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 5px 20px;
+  font-size: 12px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.box-disabled {
+  display: none;
+}
+
+.box-enabled {
+  display: block;
+}
+
+#pwd1-verify-title {
+  font-size: 15px;
+  margin: 15px 0px;
+}
+
+.valid {
+  color: green;
+  margin-left: 20px;
+}
+
+.valid:before {
+  content: "✔";
+  position: relative;
+  left: -10px;
+}
+
+.invalid {
+  color: #ff6666;
+  margin-left: 20px;
+}
+
+.invalid:before {
+  content: "✖";
+  position: relative;
+  left: -10px;
+}
+/*# sourceMappingURL=Register.css.map */

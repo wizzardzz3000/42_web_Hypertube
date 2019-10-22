@@ -1,0 +1,89 @@
+{
+    "name": "hypertube",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@ffmpeg-installer/ffmpeg": "^1.0.20",
+        "@material-ui/core": "^4.4.3",
+        "axios": "^0.19.0",
+        "concurrently": "^4.1.2",
+        "connect-flash": "^0.1.1",
+        "connect-mongodb-session": "^2.2.0",
+        "cookie-parser": "^1.4.4",
+        "download": "^7.1.0",
+        "eslint": "^6.5.1",
+        "express": "^4.17.1",
+        "express-router": "0.0.1",
+        "express-session": "^1.16.2",
+        "ffmpeg": "0.0.4",
+        "fluent-ffmpeg": "^2.1.2",
+        "json-loader": "^0.5.7",
+        "jsonwebtoken": "^8.5.1",
+        "jwt-decode": "^2.2.0",
+        "materialize-css": "^1.0.0",
+        "mime": "^2.4.4",
+        "moment": "^2.24.0",
+        "mongo-sanitize": "^1.0.1",
+        "mongodb": "^3.3.2",
+        "mongoose": "^5.7.1",
+        "node-sass": "^4.12.0",
+        "node-schedule": "^1.3.2",
+        "nodemailer": "^6.3.0",
+        "nodemon": "^1.19.3",
+        "nouislider": "^14.0.2",
+        "nouislider-react": "^3.3.3",
+        "opensubtitles-api": "^5.0.1",
+        "passport": "^0.4.0",
+        "passport-facebook": "^3.0.0",
+        "passport-github2": "^0.1.11",
+        "passport-google-oauth": "^2.0.0",
+        "passport-local-mongoose": "^5.0.1",
+        "passport-oauth2": "^1.5.0",
+        "passport-twitter": "^1.0.4",
+        "pump": "^3.0.0",
+        "rc-slider": "^8.7.1",
+        "react": "^16.10.1",
+        "react-bootstrap": "^1.0.0-beta.12",
+        "react-dom": "^16.10.1",
+        "react-facebook-login": "^4.1.1",
+        "react-loading": "^2.0.3",
+        "react-materialize": "^3.4.1",
+        "react-moment": "^0.9.6",
+        "react-router": "^5.1.2",
+        "react-router-dom": "^5.1.1",
+        "react-scripts": "3.1.1",
+        "react-world-flags": "^1.3.0",
+        "remove-accents": "^0.4.2",
+        "resolve-pathname": "^3.0.0",
+        "torrent-stream": "^1.1.0",
+        "value-equal": "^1.0.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "server": "nodemon ./API/routes/server.js",
+        "dev": "concurrently --kill-others \"npm run server\" \"npm run start\""
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "proxy": "http://localhost:5000",
+    "devDependencies": {
+        "case-sensitive-paths-webpack-plugin": "^2.2.0",
+        "jquery": "^3.4.1"
+    }
+}

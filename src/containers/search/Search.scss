@@ -1,0 +1,68 @@
+body {
+  background: url("../../assets/landing.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgb(0, 0, 0);
+}
+
+.SearchView {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.layer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.295);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 70px;
+}
+
+.infiniteScroll {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 80%;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+// .movies {
+//   display: flex;
+//   flex-wrap: wrap;
+//   flex-direction: row;
+//   justify-content: space-between;
+// }
+
+// .add-movies {
+//   text-align: center;
+// }
+
+// .add-movies button {
+//   font-size: 16px;
+//   padding: 8px;
+//   margin: 0 10px 30px 10px;
+// }
+
+// @media screen and (min-width: 652px) and (max-width: 693px) {
+//   .movie {
+//     max-width: 50%;
+//   }
+// }
+
+// @media screen and (max-width: 651px) {
+//   .movie {
+//     max-width: 100%;
+//     margin: auto;
+//   }
+// }

@@ -1,0 +1,77 @@
+/* General */
+/* Card */
+.auth-card {
+  width: 500px;
+  margin-top: 30px !important;
+  padding: 50px;
+}
+
+/* Links */
+.register-login-link {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: white;
+}
+
+.red-link {
+  color: red;
+}
+
+/* Social */
+.third-party-logo {
+  display: inline-block;
+  border-radius: 50%;
+  width: 35px;
+  margin: 0px 10px;
+}
+
+.third-party-logo:hover {
+  cursor: pointer;
+}
+
+.register-login-with-social {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  height: 35px;
+}
+
+.register-login-social-text {
+  position: relative;
+  top: -15px;
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+}
+
+/* Errors */
+.login-error,
+.register-error {
+  color: red;
+  font-size: 0.8em;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+  .auth-card {
+    margin-top: 20px !important;
+    width: 100%;
+    background-color: black !important;
+    border: none !important;
+    border-radius: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .auth-card {
+    margin-top: 0px !important;
+  }
+  .register-login-with-social {
+    height: 80px;
+  }
+  .register-login-social-text {
+    position: static;
+    display: block;
+  }
+}
+/*# sourceMappingURL=Login.css.map */

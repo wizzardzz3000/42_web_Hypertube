@@ -1,0 +1,61 @@
+/* General */
+h2 {
+  font-size: 23px;
+}
+
+.movieInfosDiv {
+  margin-top: -100%;
+  margin-left: 0px;
+  width: 10vw;
+  height: 2.64vh;
+  visibility: hidden;
+  position: absolute;
+  z-index: 1000;
+}
+
+.movieInfos {
+  font-size: 15px;
+}
+
+.movieTitle {
+  font-size: 20px;
+}
+
+.movie {
+  width: 10vw;
+  margin-bottom: -6px;
+  position: relative;
+  background-color: black;
+}
+
+.movie:hover > .movieInfosDiv {
+  visibility: visible;
+}
+
+.movie:hover > img {
+  opacity: 0.18;
+}
+
+.movie img {
+  width: 10vw;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1730px) {
+  .movie, .movieInfos, .movieInfosDiv, .movie img {
+    width: 20vw;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .movieTitle {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .movie, .movieInfos, .movieInfosDiv, .movie img {
+    width: 50vw;
+  }
+}
+/*# sourceMappingURL=Movie.css.map */

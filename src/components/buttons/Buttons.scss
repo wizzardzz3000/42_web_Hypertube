@@ -1,0 +1,154 @@
+/* General */
+
+.btn {
+  margin-left: 0px;
+}
+
+.btn-full-width {
+  display: block;
+  width: 100%;
+  margin: 20px 0px !important;
+  height: 50px;
+  font-size: 15px;
+}
+
+/* Regular button / submit buttons */
+
+.btn.btn-regular,
+.btn.btn-secondary,
+.btn-submit-form {
+  background-color: red;
+  margin: 0px 20px 0px 0px;
+}
+
+.btn.btn-regular:hover,
+.btn-submit-form:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.btn.btn-regular:focus,
+.btn-submit-form:focus {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+/* Secondary button */
+
+.btn.btn-secondary {
+  background-color: rgba(102, 65, 65, 0);
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.219);
+}
+
+.btn-secondary:focus {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.btn.btn-secondary:disabled {
+  background-color: rgba(102, 65, 65, 0) !important;
+  color: rgba(255, 255, 255, 0.486) !important;
+  border: 1px solid white;
+}
+
+/* Function button / Modal button */
+
+.btn-function,
+.btn-modal {
+  padding: 5px 30px;
+  height: auto;
+}
+
+.btn-function-text,
+.btn-modal-text {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+/* Big button */
+
+.btn.btn-big {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  width: 350px;
+  height: 120px;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.btn.btn-big-icon {
+  margin-left: 20px;
+  font-size: 50px;
+}
+
+/* Country picker */
+
+.btn-country-picker {
+  display: inline-block;
+}
+
+.MuiButton-label {
+  color: red !important;
+}
+
+.MuiDialogTitle-root {
+  color: white;
+  background-color: black;
+}
+
+.MuiDialogContent-root {
+  background-color: black;
+}
+
+.MuiDialogActions-spacing {
+  color: white;
+  background-color: black;
+}
+
+.MuiFormLabel-root {
+  color: white !important;
+}
+
+.MuiInputBase-input {
+  color: white !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: red !important;
+}
+
+.MuiSelect-icon {
+  color: red !important;
+}
+
+.MuiInput-underline:before {
+  border-color: red !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom-color: rgba(255, 0, 0, 0.5) !important;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
+  .btn.btn-big {
+    width: 250px;
+    height: 85px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .btn.btn-big-icon {
+    margin-left: 15px;
+    font-size: 35px;
+  }
+
+  .btn-function {
+    width: 300px;
+  }
+}

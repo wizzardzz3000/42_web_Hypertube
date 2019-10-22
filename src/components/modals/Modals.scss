@@ -1,0 +1,198 @@
+/* General */
+
+.modal {
+  max-height: 90%;
+  overflow: auto;
+}
+
+/* Modal black background */
+
+.modal-black-background {
+  max-width: 1200px;
+  width: 100% !important;
+  background: black !important;
+  opacity: 1 !important;
+}
+
+.modal-overlay {
+  opacity: 1 !important;
+  margin-top: 370px;
+}
+
+/* Modal black content */
+
+.modal-black-title {
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.modal-black-content {
+  border-top: solid 1px white;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 40px 0px;
+}
+
+.profile-picture-modify {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+.profile-text-modify {
+  position: absolute;
+  display: inline-block;
+  padding: 0px 50px !important;
+}
+
+.form-input-fields-modal {
+  max-width: 70%;
+  color: white;
+  border-bottom: none !important;
+  background-color: grey !important;
+  padding: 0px 20px !important;
+  font-size: 20px !important;
+  margin-bottom: 15px !important;
+}
+
+.form-input-fields-modal:focus {
+  box-shadow: 0 1px 0 0 red !important;
+}
+
+.half-input-fields-modal {
+  max-width: calc(35% - 28px);
+}
+
+.field-right-margin {
+  margin-right: 15px !important;
+}
+
+.select-wrapper {
+  max-width: 105px;
+  height: 40px !important;
+  border: solid 1px white;
+  color: white !important;
+  font-size: 20px;
+}
+
+.select-wrapper .caret {
+  display: inline-block !important;
+  fill: white !important;
+}
+
+.select-dropdown.dropdown-trigger {
+  margin-top: -5px !important;
+  color: white !important;
+  padding-left: 10px !important;
+  border: none !important;
+}
+
+.profile-select-language-text {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.profile-text-modify .input-field.col {
+  display: inline-block !important;
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+  color: red !important;
+}
+
+.modal-footer {
+  display: none;
+}
+
+.profile-edit-actions {
+  margin-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px white;
+}
+
+.profile-edit-actions-buttons {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* Errors */
+
+.edit-profile-invalid-input {
+  background-color: rgba(255, 0, 0, 0.2) !important;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 800px) {
+  .half-input-fields-modal {
+    max-width: 70%;
+  }
+
+  .field-right-margin {
+    margin-right: 0px !important;
+  }
+
+  .profile-edit-actions {
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .half-input-fields-modal,
+  .form-input-fields-modal {
+    max-width: 85%;
+  }
+
+  .profile-edit-actions {
+    margin-top: 120px;
+  }
+
+  .profile-edit-actions-buttons {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .half-input-fields-modal,
+  .form-input-fields-modal {
+    display: block !important;
+  }
+
+  .profile-select-language-text {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .profile-picture-modify {
+    width: 280px;
+    height: 280px;
+    margin: auto;
+    display: block;
+  }
+
+  .profile-text-modify {
+    display: block;
+    margin-top: 80px !important;
+    margin: auto;
+    position: static;
+    padding: 0px !important;
+  }
+
+  .profile-edit-actions {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .profile-picture-modify {
+    width: 100%;
+    height: 220px;
+  }
+}

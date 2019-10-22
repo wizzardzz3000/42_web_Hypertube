@@ -1,0 +1,14 @@
+/* Full screen */
+
+.loading-full-container {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.loading-full-anim {
+    position: relative;
+    top: 33%;
+    left: calc(50% - 62px);
+}
