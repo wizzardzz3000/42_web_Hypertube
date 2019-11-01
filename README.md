@@ -38,11 +38,6 @@ A Netflix-like web app to search and stream movies using BitTorrent protocol
 - [Configuration and additionnal security](#configuration-and-additionnal-security)
   - [Database](#database)
   - [Security](#security)
-- [Run project](#run-project)
-  - [Environment setup](#environment-setup)
-  - [DB](#db)
-  - [Install packages and dependencies](#install-packages-and-dependencies)
-  - [Start servers and website](#start-servers-and-website)
 
 ## Intro
 
