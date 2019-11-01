@@ -43,9 +43,7 @@ A Netflix-like web app to search and stream movies using BitTorrent protocol
 
 Objective of this project is to create a complete streaming website that allow users to search and watch movies using BitTorrent protocol
 
-Team of 3: Raphaël ([GitHub](https://github.com/M4sterCiel)), Martin ([GitHub](https://github.com/Scaglia3000)) and I.
-
-See Trello board [here](https://trello.com/b/wteA4xno/42-hypertube)
+Team of 3: Raphaël ([GitHub](https://github.com/M4sterCiel)), Lucas ([GitHub](https://github.com/lcordenod)) and I.
 
 ### Stack
 
