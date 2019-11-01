@@ -1,5 +1,5 @@
 # 42_web_Hypertube
-Creating a Netflix-like web app to search and stream movies using BitTorrent protocol
+A Netflix-like web app to search and stream movies using BitTorrent protocol
 
 ## Summary
 
